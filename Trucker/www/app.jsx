@@ -1,16 +1,22 @@
+import '../node_modules/materialize-css/dist/css/materialize.min.css';
+// import '../node_modules/jquery-ui/themes/base/theme.css';
+
 import React from 'react';
 import {render} from 'react-dom';
 
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
-import ProjectsList from './components/projects-list.jsx'; // Our custom react component
-import TopNav from './components/TopNav.jsx'; // Our custom react component
-import BootExample from './components/bootstrap.jsx';
 import Materialize from './components/materialize.jsx';
 
-// materialize
-render(<Materialize />, document.getElementById('materialize'));
 
+//import $ from 'jquery';
+
+
+//import cssEx from './components/topnav.css';
+// require("./stylesheet.css");
+
+// materialize
+render(<Materialize />, document.getElementById('app'));
 
 
 ///////////////////////////////////////

@@ -8,7 +8,7 @@ var settings = {
     username: "mik@fdh.by",
     password: '59MIhm___',
     siteUrl: 'https://firstdevelopmenthub-87fb5b989d9858.sharepoint.com/sites/mik/Trucker'
-}
+};
 
 var uploadFiles = spsave({
     username: settings.username,
@@ -21,8 +21,8 @@ var uploadFiles = spsave({
 });
 
 var assetsPath = [
-    //'./Scripts/build/**/*.*',
-    './Scripts/build/app.js',
+    './Scripts/build/**/*.*',
+    // './Scripts/build/app.js',
     // '!./Modules/Style Library/**/*.xml',
 ];
 // Ignore empty files, SharePoint doesn't allow to upload them
@@ -37,10 +37,10 @@ function swallowError(error) {
 
 // ============ TASKS =============================
 gulp.task("spsave:copy-scripts", ["webpack:build"], function () {
-    return gulp.src(assetsPath) //'./Scripts/build/app.js')
+    return gulp.src(assetsPath)
         .pipe(ignoreEmptyFiles())
-        .pipe(uploadFiles)
-        .on('error', swallowError);
+        .pipe(uploadFiles);
+        // .on('error', swallowError);
 });
 
 gulp.task('webpack:build', function() {
@@ -61,10 +61,10 @@ gulp.task('watch', function () {
 //         .pipe(uploadFiles)
 //         .on('error', swallowError);
 // });
-gulp.task("watch-old", function () {
-    return gulp.src(assetsPath)
-        .pipe(watch(assetsPath))
-        .pipe(ignoreEmptyFiles())
-        .pipe(uploadFiles)
-        .on('error', swallowError);
-});
+// gulp.task("watch-old", function () {
+//     return gulp.src(assetsPath)
+//         .pipe(watch(assetsPath))
+//         .pipe(ignoreEmptyFiles())
+//         .pipe(uploadFiles)
+//         .on('error', swallowError);
+// });

@@ -58,8 +58,6 @@
     <None Include="DataModel\List1\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{8386d832-e6db-4052-aa11-4e1c796533d3}</SharePointProjectItemId>
     </None>
-    <None Include="Scripts\build\app.js.map" />
-    <None Include="Scripts\build\vendor.js.map" />
     <None Include="www\app.jsx" />
     <Content Include="www\index.html" />
     <None Include="DataModel\Projects\Projects Columns\SharePointProjectItem.spdata">
