@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
+     Name="Trucker"
+     ProductID="{c0923848-5dee-4f68-8d57-75b2ddc1c9d8}"
+     Version="1.0.0.1"
+     SharePointMinVersion="15.0.0.0"
+>
+  <Properties>
+    <Title>Trucker</Title>
+    <StartPage>~appWebUrl/Pages/Default.aspx?{StandardTokens}&amp;SPHostTitle={HostTitle}&amp;SPHostLogo={HostLogoUrl}&amp;DisplayType=FullScreen</StartPage>
+  </Properties>
+
+  <AppPrincipal>
+    <Internal />
+  </AppPrincipal>
+
+
+</App>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{be1a8c02-5403-45de-9caa-ab3d3cc45d05}"
+       Name="Tracker_Projects_Description"
+       DisplayName="Description"
+       Type="Note"
+       RichText="TRUE"       
+       Required="TRUE"
+       Group="Tracker Columns">
+  </Field>
+</Elements>

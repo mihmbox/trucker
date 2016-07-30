@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="209369ba-8df6-4924-9f10-ba2b294eea57" solutionId="209369ba-8df6-4924-9f10-ba2b294eea57" resetWebServer="false" sharePointProductVersion="16.0" name="Trucker" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="da22b6a9-6675-4eec-b9b7-6411f26e30f3" />
+  </features>
+</package>

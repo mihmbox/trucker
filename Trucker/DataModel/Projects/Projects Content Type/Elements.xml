@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100ABAA57DB58C54EE8923D61BE0C56869C" Name="Projects Content Type" Group="Custom Content Types" Description="Projects Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{be1a8c02-5403-45de-9caa-ab3d3cc45d05}" DisplayName="Description" Required="TRUE" Name="Tracker_Projects_Description" />
+    </FieldRefs>
+  </ContentType>
+</Elements>
